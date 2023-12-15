@@ -17,16 +17,17 @@
             "lowercase",
             "om_stemmer"
           ]
-        },
-        "filter": {
-          "om_stemmer": {
-            "type": "stemmer",
-            "name": "english"
-          }
+        }
+      },
+      "filter": {
+        "om_stemmer": {
+          "type": "stemmer",
+          "name": "english"
         }
       }
-    },
-    "mappings": {
+    }
+  },
+  "mappings": {
       "properties": {
         "id": {
           "type": "text"
@@ -332,5 +333,4 @@
         }
       }
     }
-  }
 }
